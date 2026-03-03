@@ -1,0 +1,22 @@
+Design Development
+
+Link: https://www.curso-webdev.com/?page=principal
+
+var = forma antiga
+let = variávl, valor pode ser alterado
+const = constante, valor não alterado
+
+Estrutura de Diretórios:
+projeto/
+├── index.html
+├── assets/
+│   ├── css/
+│   │   └── styles.css
+│   ├── js/
+│   │   └── script.js
+│   └── images/
+│       └── logo.png
+└── pages/
+    ├── about.html
+    └── contact.html
+
