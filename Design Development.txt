@@ -44,3 +44,14 @@ git reset --hard a1b2c3d[Hash da versão] = Utilizado para retornar para a vers�
 2- Develop Branch: Branch de desenvolvimento
 3- Feature Branch: Branch de desenvolvimento de cada funcionalidade (tem tempo de produção) [enviada para Develop]
 4- Hotflix Branch: Branch de desenvolvimento de cada funcionalidade (Situação crítica do Main Branch) [enviada para Develop e Main]
+
+vim .git/config = Utilizado para ver se a pasta é direto do git
+
+git init = para criar um repositório
+git checkout -b "Nome" = utilizada para criar uma nova branch
+git branch = usada para listas as branchs criadas
+git branch -M main = 
+git remote add origin (link) = Para fazer a sincronia da pasta com repositório
+git push -u origin main = usado para fazer a cópia da pasta no branch main
+git config --global user.name "Nome" = Para logar no git
+git config --global user.email "Nome" = Para logar no git
