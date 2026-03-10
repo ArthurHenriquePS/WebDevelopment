@@ -2,6 +2,9 @@ Design Development
 
 Link: https://www.curso-webdev.com/?page=principal
 
+
+Aula 1:
+
 var = forma antiga
 let = variávl, valor pode ser alterado
 const = constante, valor não alterado
@@ -20,3 +23,24 @@ projeto/
     ├── about.html
     └── contact.html
 
+Aula 2:
+
+******Conceitos Fundamentais******
+
+Commit: Snapshot("foto") do projeto em um momento específico
+Branch: Ramificações do código 
+Merge: Combinação de código
+Clone: Cópia completa de um repositório
+Pull/Push: Sincronização de mudanças entre repositórios
+
+*********************************
+
+Depois que criar uma versão do repositório e eu atualizar ela, é criado outra versão.
+Se você apagar uma versão do repositório, ela pode ser criada novamente do zero.
+
+git reset --hard a1b2c3d[Hash da versão] = Utilizado para retornar para a versão anterior, caso a versão nova possua falhas.
+
+1- Main Branch: Branch principal que está sendo executada
+2- Develop Branch: Branch de desenvolvimento
+3- Feature Branch: Branch de desenvolvimento de cada funcionalidade (tem tempo de produção) [enviada para Develop]
+4- Hotflix Branch: Branch de desenvolvimento de cada funcionalidade (Situação crítica do Main Branch) [enviada para Develop e Main]
