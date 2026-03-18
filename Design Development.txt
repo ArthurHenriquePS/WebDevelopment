@@ -55,3 +55,16 @@ git remote add origin (link) = Para fazer a sincronia da pasta com repositório
 git push -u origin main = usado para fazer a cópia da pasta no branch main
 git config --global user.name "Nome" = Para logar no git
 git config --global user.email "Nome" = Para logar no git
+
+
+******************************************************
+Aula 3
+
+JavaScript é padronizado pela ECMA INternacional como ECMAScript
+defer = o download do script é feito de forma assíncrona, mas sua execução ocorre apenas quando todo o processo de renderização estiver concluído (Espera o HTML carregar primeiro).
+async = possibilita que o download do script seja feito de modo assíncrono, em paralelo com o HTML (imediatamente em conjuto com o HTML).
+
+
+Array = [] (Lista)                       valor1
+Objeto = {} separador por vírgula EX. {ID: 1, DESCRICAO: "Aula de JavaScript"}
+                                    chave1    chave2     Valor2
