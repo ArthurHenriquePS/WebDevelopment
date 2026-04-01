@@ -68,3 +68,5 @@ async = possibilita que o download do script seja feito de modo assíncrono, em 
 Array = [] (Lista)                       valor1
 Objeto = {} separador por vírgula EX. {ID: 1, DESCRICAO: "Aula de JavaScript"}
                                     chave1    chave2     Valor2
+
+******************************************************
