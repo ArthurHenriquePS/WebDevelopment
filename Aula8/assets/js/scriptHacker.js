@@ -1,7 +1,8 @@
 document.getElementById("btn-buscar").onclick = async () => {
+    // value.trim() = remove os espaços em branco que o usuário digitou
     const username = document.getElementById("input-usuario").value.trim()
     const info = document.getElementById("info-usuario")
-    debugger
+    // debugger
     
     if(!username){
         info.innerHTML = '<span class="text-danger">Digite um usuário</span>'

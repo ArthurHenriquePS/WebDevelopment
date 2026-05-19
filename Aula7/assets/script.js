@@ -109,7 +109,7 @@ const addTarefa = () => {
 }
 // addEventListener("click") = onsubmit
 document.getElementById("form-tarefa").onsubmit = (event) => {
-    event.preventDefault()
+    event.preventDefault() // Evita que a página recarregue
     addTarefa()
     renderizarTarefas()
 }
